@@ -45,8 +45,8 @@ function App() {
         <form onSubmit={handleSubmit}>
           <Box sx={{ display: 'flex', flexDirection: 'column', gap: '20px', mt: 3 }}>
             <TextField id="standard-basic" value={firstName} onChange={(e) => setFirstName(e.target.value)} label="First Name" variant="standard" />
-            <TextField id="standard-basic" type='email' value={lastName} onChange={(e) => setLastName(e.target.value)} label="Last Name" variant="standard" />
-            <TextField id="standard-basic" value={email} onChange={(e) => setEmail(e.target.value)} label="Email" variant="standard" />
+            <TextField id="standard-basic" value={lastName} onChange={(e) => setLastName(e.target.value)} label="Last Name" variant="standard" />
+            <TextField id="standard-basic" type='email' value={email} onChange={(e) => setEmail(e.target.value)} label="Email" variant="standard" />
             <TextField id="standard-basic" required type='password' value={password} onChange={(e) => setPassword(e.target.value)} label="Password" variant="standard" />
           </Box>
           <Box sx={{ mt: 4, display: 'flex', gap: '50px' }}>
